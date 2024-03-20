@@ -16,7 +16,7 @@ Why even use a Apex class?
  - The fetch function from the LWC does not work because the API being called is not CORS compatible
  - The only option is to call the MERZ mock service from the backed Apex class and display the result in the Lighting App
 
- 
-
+Screenshot from the Lightning App
+![alt text](https://github.com/raviram21/Salesforce/blob/main/sf_lwc_example/Screenshot.png)
 
 
