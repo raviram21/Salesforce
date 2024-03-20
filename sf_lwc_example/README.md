@@ -1,4 +1,4 @@
-# Salesforce Lightning Web Component With REST Callout
+# Shipment Tracking Lightning Web Component
 
 This repository contains the code to make a REST callout to the MERZ mock service
 https://merzcommunities--tina.sandbox.my.salesforce- sites.com/services/apexrest/mockShipmentStatus?trackingNumber=anystringwilldo
@@ -8,7 +8,7 @@ This is how this code works:
 
 - Lightning web component "Shipping status" accepts a tracking number in the input field
 - The LWC makes a REST callout to the Apex class MerzServiceCallout by invoking the getCalloutResponseContents function
-- The getCalloutResponseContents function calls out to the MERZ mock service (of course you have to add this to the Salesforce Trusted URLS first)
+- The getCalloutResponseContents function calls out to the MERZ mock service (please make sure that you have added this Service to the Salesforce Trusted URLS)
 - The response from the REST callout is displayed at the bottom of the Lightning app
 
 Why even use a Apex class?
