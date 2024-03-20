@@ -1,9 +1,10 @@
 <template>
     <lightning-card title="Shipping status" icon-name="custom:custom14">
       <div class="slds-m-around_medium">
-        <p>Hello, {greeting}!</p>
-        <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
-        <p>Your order status is: {order_status}</p>
+        <p>Welcome to the shipping tracker</p>
+        <lightning-input label="Tracking ID" value={greeting} onchange={changeHandler}></lightning-input>
+        <br></br>
+        <p>The status of order {greeting} is: {order_status}</p>
       </div>
     </lightning-card>
 </template>
